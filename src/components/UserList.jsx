@@ -22,6 +22,7 @@ const UserList = () => {
               <th>Name</th>
               <th>E-Mail</th>
               <th>Phone</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody className="text-center">
@@ -31,6 +32,10 @@ const UserList = () => {
               <td>Otto</td>
               <td>@mdo</td>
               <td>@mdo</td>
+              <td colSpan={2}>
+                <button>edit</button>
+                <button>delete</button>
+              </td>
             </tr>
             <tr>
               <td>2</td>
@@ -38,6 +43,10 @@ const UserList = () => {
               <td>Thornton</td>
               <td>@fat</td>
               <td>@mdo</td>
+              <td colSpan={2}>
+                <button>edit</button>
+                <button>delete</button>
+              </td>
             </tr>
             <tr>
               <td>3</td>
@@ -45,6 +54,10 @@ const UserList = () => {
               <td>@twitter</td>
               <td>@twitter</td>
               <td>@mdo</td>
+              <td colSpan={2}>
+                <button>edit</button>
+                <button>delete</button>
+              </td>
             </tr>
           </tbody>
         </Table>
